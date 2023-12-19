@@ -1,0 +1,33 @@
+.contain {
+  background-image: url("/public/images/bg.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+}
+
+.contain form {
+  margin-left: 20%;
+  background-color: #2a394b94;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.contain form .form-control {
+  border-radius: 0;
+}
+
+.contain form .form-control:focus {
+  box-shadow: none;
+}
+
+.login__btn {
+  height: 1rem;
+  width: 1rem;
+  font-weight: 300;
+  border-width: 2px;
+  margin-left: 10px;
+}
